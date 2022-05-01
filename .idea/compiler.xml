@@ -11,14 +11,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Consumer" target="11" />
-      <module name="Producer" target="11" />
+      <module name="Consumer" target="17" />
+      <module name="ConsumerProducer" target="17" />
+      <module name="Producer" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Consumer" options="-parameters" />
-      <module name="Producer" options="-parameters" />
+      <module name="Consumer" options="" />
+      <module name="Producer" options="" />
     </option>
   </component>
 </project>
